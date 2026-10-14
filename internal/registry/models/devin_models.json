@@ -172,6 +172,29 @@
       }
     },
     {
+      "id": "gemini-4-argon",
+      "object": "model",
+      "type": "devin",
+      "owned_by": "google",
+      "display_name": "Gemini 4 Argon",
+      "context_length": 1048576,
+      "max_completion_tokens": 64000,
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    {
       "id": "kimi-k3",
       "object": "model",
       "type": "devin",
@@ -698,31 +721,6 @@
           "medium",
           "high",
           "xhigh"
-        ]
-      }
-    },
-    {
-      "id": "inkling",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "devin",
-      "display_name": "Inkling",
-      "context_length": 1048576,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
         ]
       }
     },
