@@ -24,27 +24,6 @@
       }
     },
     {
-      "id": "swe-1-7-lightning",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "cognition",
-      "display_name": "SWE-1.7 Lightning",
-      "context_length": 202752,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "medium"
-        ]
-      }
-    },
-    {
       "id": "claude-fable-5-1",
       "object": "model",
       "type": "devin",
@@ -654,29 +633,6 @@
       }
     },
     {
-      "id": "grok-4-5",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "xai",
-      "display_name": "Grok 4.5",
-      "context_length": 500000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "low",
-          "medium",
-          "high"
-        ]
-      }
-    },
-    {
       "id": "grok-4-6",
       "object": "model",
       "type": "devin",
@@ -725,6 +681,32 @@
       }
     },
     {
+      "id": "muse-wonder-1-0",
+      "object": "model",
+      "type": "devin",
+      "owned_by": "devin",
+      "display_name": "Muse Wonder",
+      "context_length": 1048576,
+      "max_completion_tokens": 64000,
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "thinking": {
+        "levels": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    },
+    {
       "id": "glm-5-3-flash",
       "object": "model",
       "type": "devin",
@@ -769,7 +751,7 @@
       }
     },
     {
-      "id": "deepseek-v4-1-flash",
+      "id": "deepseek-v4-1-flash-1017",
       "object": "model",
       "type": "devin",
       "owned_by": "deepseek",
@@ -785,6 +767,8 @@
       ],
       "thinking": {
         "levels": [
+          "none",
+          "low",
           "high",
           "max"
         ]
@@ -808,6 +792,29 @@
       "thinking": {
         "levels": [
           "medium"
+        ]
+      }
+    },
+    {
+      "id": "swe-2-lightning",
+      "object": "model",
+      "type": "devin",
+      "owned_by": "cognition",
+      "display_name": "SWE-2 Lightning",
+      "context_length": 262144,
+      "max_completion_tokens": 64000,
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "thinking": {
+        "levels": [
+          "medium",
+          "high",
+          "max"
         ]
       }
     },
@@ -950,172 +957,6 @@
       ]
     },
     {
-      "id": "MODEL_GPT_5_2",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-5.2",
-      "context_length": 384000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      }
-    },
-    {
-      "id": "MODEL_CLAUDE_4_5_OPUS",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "anthropic",
-      "display_name": "Claude Opus 4.5",
-      "context_length": 200000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "high"
-        ]
-      }
-    },
-    {
-      "id": "MODEL_PRIVATE_11",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "anthropic",
-      "display_name": "Claude Haiku 4.5",
-      "context_length": 200000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "MODEL_CHAT_GPT_4_1_2025_04_14",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-4.1",
-      "context_length": 1047576,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "MODEL_PRIVATE_12",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-5.1",
-      "context_length": 272000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "MODEL_PRIVATE_13",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-5.1",
-      "context_length": 272000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "MODEL_PRIVATE_14",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-5.1",
-      "context_length": 272000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "MODEL_PRIVATE_15",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-5.1",
-      "context_length": 272000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "gpt-5-3-codex",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "openai",
-      "display_name": "GPT-5.3-Codex",
-      "context_length": 400000,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      }
-    },
-    {
       "id": "kimi-k2-6",
       "object": "model",
       "type": "devin",
@@ -1184,52 +1025,6 @@
       "supportedOutputModalities": [
         "text"
       ]
-    },
-    {
-      "id": "gemini-3-1-pro",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "google",
-      "display_name": "Gemini 3.1 Pro",
-      "context_length": 1048576,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "low",
-          "high"
-        ]
-      }
-    },
-    {
-      "id": "MODEL_GOOGLE_GEMINI_3_0_FLASH",
-      "object": "model",
-      "type": "devin",
-      "owned_by": "google",
-      "display_name": "Gemini 3 Flash",
-      "context_length": 1048576,
-      "max_completion_tokens": 64000,
-      "supportedInputModalities": [
-        "text",
-        "image"
-      ],
-      "supportedOutputModalities": [
-        "text"
-      ],
-      "thinking": {
-        "levels": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ]
-      }
     },
     {
       "id": "deepseek-v4-pro",
